@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="777.0" prefWidth="907.0" styleClass="bodybg" stylesheets="@menuStyle.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.MenuController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="649.0" prefWidth="719.0" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#changeScreenButtonPushed" prefHeight="72.0" prefWidth="176.0" styleClass="bodybg" stylesheets="@buttonStyle.css" text="PLAY" />
+            <Button mnemonicParsing="false" onAction="#changeScreenButtonPushed2" prefHeight="72.0" prefWidth="186.0" styleClass="bodybg" stylesheets="@buttonStyle.css" text="ABOUT" />
+            <Button mnemonicParsing="false" onAction="#changeScreenButtonPushed3" prefHeight="72.0" prefWidth="186.0" styleClass="bodybg" stylesheets="@buttonStyle.css" text="CREDIT" />
+            <Button mnemonicParsing="false" onAction="#changeScreenButtonPushed4" prefHeight="72.0" prefWidth="186.0" styleClass="bodybg" stylesheets="@buttonStyle.css" text="RANKING" />
+            <Button mnemonicParsing="false" onAction="#changeScreenButtonPushed5" prefHeight="72.0" prefWidth="186.0" styleClass="bodybg" stylesheets="@buttonStyle.css" text="EXIT" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

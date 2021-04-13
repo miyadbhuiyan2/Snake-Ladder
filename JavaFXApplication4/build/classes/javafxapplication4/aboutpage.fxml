@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="826.0" prefWidth="1285.0" styleClass="bodybg" stylesheets="@aboutpagestyle.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.AboutpageController">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#changeScreenButtonPushed" prefHeight="32.0" prefWidth="145.0" styleClass="bodybg" stylesheets="@backbuttonstyle.css" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+.bodybg{
+    -fx-background-image: url("/javafxapplication4/menupage.jpg");
+    -fx-background-size: 100% 100%;
+}

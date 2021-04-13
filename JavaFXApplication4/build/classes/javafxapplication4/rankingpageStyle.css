@@ -1,0 +1,8 @@
+.bodybg{
+    -fx-background-image: url("/javafxapplication4/rankingpage.jpg");
+    -fx-background-size: 100% 100%;
+}
+.bodybg2{
+    -fx-background-image: url("/javafxapplication4/search.png");
+    -fx-background-size: 100% 100%;
+}

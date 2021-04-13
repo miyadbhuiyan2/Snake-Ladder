@@ -1,0 +1,4 @@
+.bodybg{
+    -fx-background-image: url("/javafxapplication4/samplebutton.jpg");
+    -fx-background-size: 100% 100%;
+}

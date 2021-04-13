@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.GameboardController">
+   <children>
+      <ImageView fx:id="gameboard" fitHeight="833.0" fitWidth="1052.0" pickOnBounds="true">
+         <image>
+            <Image url="@gameboard.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="dice2" layoutX="927.0" layoutY="488.0" mnemonicParsing="false" onAction="#dice2rotation" prefHeight="55.0" prefWidth="64.0" styleClass="dicebg" stylesheets="@gameboardStyle.css" />
+      <Button fx:id="dice1" layoutX="46.0" layoutY="488.0" mnemonicParsing="false" onAction="#dice1rotation" prefHeight="55.0" prefWidth="64.0" styleClass="dicebg" stylesheets="@gameboardStyle.css" />
+      <ImageView fx:id="coin1" fitHeight="85.0" fitWidth="64.0" layoutX="34.0" layoutY="556.0" pickOnBounds="true">
+         <image>
+            <Image url="@coin1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="coin2" fitHeight="85.0" fitWidth="57.0" layoutX="927.0" layoutY="556.0" pickOnBounds="true">
+         <image>
+            <Image url="@coin2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="player1" layoutX="22.0" layoutY="194.0" prefHeight="38.0" prefWidth="112.0" text="PLAYER 1" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font></Label>
+      <Label fx:id="player2" layoutX="903.0" layoutY="190.0" prefHeight="46.0" prefWidth="112.0" text="PLAYER 2" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <ImageView fx:id="diceValue" fitHeight="100.0" fitWidth="112.0" layoutX="22.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dicevalue2" fitHeight="100.0" fitWidth="112.0" layoutX="909.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="reset" layoutY="787.0" mnemonicParsing="false" onAction="#resetbutton" prefHeight="46.0" prefWidth="198.0" text="Reset" />
+      <Text fx:id="score1" fill="#d0ddce" layoutX="17.0" layoutY="735.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="122.93671417236328">
+         <font>
+            <Font name="Showcard Gothic" size="61.0" />
+         </font>
+      </Text>
+      <Text fx:id="score2" fill="#e8c227" layoutX="909.0" layoutY="734.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="99.98040771484375">
+         <font>
+            <Font name="Showcard Gothic" size="61.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="soundOn" layoutX="865.0" layoutY="755.0" mnemonicParsing="false" onAction="#radiobuttonOn" prefHeight="38.0" prefWidth="160.0" selected="true" text="Sound ON">
+         <toggleGroup>
+            <ToggleGroup fx:id="onOff" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="soundOff" layoutX="863.0" layoutY="793.0" mnemonicParsing="false" onAction="#radiobuttonOff" prefHeight="22.0" prefWidth="153.0" text="Sound OFF" toggleGroup="$onOff" />
+   </children>
+</AnchorPane>
